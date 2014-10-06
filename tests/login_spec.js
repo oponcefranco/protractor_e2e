@@ -1,8 +1,9 @@
-// spec.js
+var server = require('helper');
+
 describe('Homepage', function() {
 	
   beforeEach(function () {
-    browser.driver.get('https://qa:aq@staging.honestqa.com/');
+    browser.driver.get(server.STAGING);
 	browser.ignoreSynchronization = true;
   });
   
