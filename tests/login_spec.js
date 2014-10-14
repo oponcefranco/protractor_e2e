@@ -1,4 +1,4 @@
-var server = require('helper');
+var server = require('../helper');
 
 describe('Homepage', function() {
 	
